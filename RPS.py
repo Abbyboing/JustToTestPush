@@ -1,7 +1,11 @@
+import os
+
 ch = 'y'
 while ch == 'y':
   a = input("Enter the A choice:")
+  os.system('cls')
   b = input("Enter the B choice:")
+  os.system('cls')
   if a == "Rock" and b == "Paper":
     print("B wins!\n")
   elif a == "Rock" and b == "Scissors":
